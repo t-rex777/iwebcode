@@ -7,14 +7,18 @@ function Nav() {
     <Navbar>
       <div>
         <Navitem>
-          <img src={Logo} />{" "}
+          <a href="/">
+            <img src={Logo} />{" "}
+          </a>
         </Navitem>
       </div>
       <div>
-        <Navitem active>Work</Navitem>
-        <Navitem>About</Navitem>
-        <Navitem>Contact</Navitem>
-        <Navitem>Other</Navitem>
+        <Navitem active>
+          <a href="#work">Work</a>
+        </Navitem>
+        <Navitem> <a href="#about">About</a></Navitem>
+        <Navitem> <a href="#contact">Contact</a></Navitem>
+        <Navitem> <a href="#other">Other</a></Navitem>
       </div>
     </Navbar>
   );

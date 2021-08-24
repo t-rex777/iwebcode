@@ -32,6 +32,10 @@ export const Navitem = styled.span`
   & > img {
     width: 3rem;
   }
+  & > a{
+    text-decoration: none;
+    color : #000
+  }
   @media only screen and (max-width: 678px) {
     font-size: 1rem;
   }

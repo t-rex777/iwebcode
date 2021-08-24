@@ -4,7 +4,7 @@ import SideArrow from "../images/SideArrow.svg";
 
 function Blog() {
   return (
-    <div>
+    <div id="other">
       <BlogHeader>Recent Blogs</BlogHeader>
       <BlogContainer>
         <BlogItem>

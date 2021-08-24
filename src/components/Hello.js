@@ -12,10 +12,10 @@ import {
 
 function Hello() {
   return (
-    <>
+    <div id="contact">
       <Header>Say Hello</Header>
       <HelloContainer>
-        <div>
+        <div style={{marginTop:"1rem"}}>
           <HelloText>
             Looking to start a new project or just want to say hi? Send me an
             email and I’ll do my best to reply within 24 hrs!
@@ -52,7 +52,7 @@ function Hello() {
           </span>
         </HelloForm>
       </HelloContainer>
-    </>
+    </div>
   );
 }
 

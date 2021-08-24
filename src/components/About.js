@@ -12,7 +12,7 @@ import DownArrow from "../images/DownArrow.svg";
 
 function About() {
   return (
-    <div>
+    <div id="about">
       <Header>About Me</Header>
 
       <AboutContainer>

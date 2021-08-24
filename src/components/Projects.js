@@ -8,7 +8,7 @@ import { ProjectContainer, Header, Wrapper, Projectimage } from "../styles";
 
 function Projects() {
   return (
-    <div>
+    <div id="work">
       <Header>Projects</Header>
       <ProjectContainer>
         <Wrapper>
