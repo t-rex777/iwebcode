@@ -1,6 +1,6 @@
 import React from "react";
 import {
-  ContentContainer as AboutContainer,
+   AboutContainer,
   Header,
   ContentText as AboutText,
   AboutBox,

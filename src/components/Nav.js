@@ -3,8 +3,6 @@ import styled from "styled-components";
 import Logo from "../images/Group.svg";
 import { Navbar, Navitem } from "../styles";
 function Nav() {
-
-
   return (
     <Navbar>
       <div>
@@ -13,7 +11,7 @@ function Nav() {
         </Navitem>
       </div>
       <div>
-        <Navitem>Work</Navitem>
+        <Navitem active>Work</Navitem>
         <Navitem>About</Navitem>
         <Navitem>Contact</Navitem>
         <Navitem>Other</Navitem>

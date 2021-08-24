@@ -12,9 +12,7 @@ function Blog() {
             Competition: win a N02 Recycle counter chair by Nendo for Fritz
             Hansen
           </p>
-
           <p>24.09.21</p>
-
           <span>
             See Now <img src={SideArrow} />
           </span>

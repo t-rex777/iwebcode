@@ -24,7 +24,7 @@ function Projects() {
           <Projectimage src={P3} />
         </Wrapper>
         <Wrapper>
-          <img src={Add} />
+          <img className="add" src={Add} />
         </Wrapper>
       </ProjectContainer>
     </div>

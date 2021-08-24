@@ -43,7 +43,7 @@ function Hello() {
           <span>
             <label style={{ marginBottom: "2rem" }}>Message*</label>
             <InputForm>
-              <textarea cols={58} rows={5} placeholder="Hello.." />
+              <textarea cols={49} rows={5} placeholder="Hello.." />
             </InputForm>
           </span>
 
